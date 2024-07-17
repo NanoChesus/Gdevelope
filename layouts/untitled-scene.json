@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.20220707303602173,
+    "zoomFactor": 0.1892301038062319,
     "windowMask": false
   },
   "objectsGroups": [
@@ -26,7 +26,7 @@
       "name": "Houses",
       "objects": [
         {
-          "name": "house"
+          "name": "house1"
         },
         {
           "name": "house2"
@@ -63,10 +63,32 @@
       "value": false
     },
     {
-      "folded": true,
       "name": "target_house",
-      "type": "number",
-      "value": 0
+      "type": "array",
+      "children": [
+        {
+          "folded": true,
+          "type": "number",
+          "value": 1
+        },
+        {
+          "folded": true,
+          "type": "number",
+          "value": 2
+        },
+        {
+          "type": "number",
+          "value": 3
+        },
+        {
+          "type": "number",
+          "value": 4
+        },
+        {
+          "type": "number",
+          "value": 5
+        }
+      ]
     }
   ],
   "instances": [
@@ -144,7 +166,7 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "house",
+      "name": "house1",
       "persistentUuid": "b38edbd0-b738-471a-93dd-0088b41d14f2",
       "width": 0,
       "x": 758,
@@ -160,11 +182,11 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "Pizzaria",
+      "name": "Pizzeria",
       "persistentUuid": "1279c3f9-5b72-477d-a31d-ce44628f0ad6",
       "width": 0,
-      "x": 2091,
-      "y": 2266,
+      "x": 2156,
+      "y": 2210,
       "zOrder": 104,
       "numberProperties": [],
       "stringProperties": [],
@@ -520,10 +542,23 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "house",
+      "name": "house1",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "house1X",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "name": "house1Y",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "animations": [
@@ -581,7 +616,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Pizzaria",
+      "name": "Pizzeria",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -642,7 +677,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "NewSprite",
+      "name": "PizzaToken",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1124,6 +1159,67 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Target",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "target house",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "target house",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 12
+                      },
+                      {
+                        "x": 542,
+                        "y": 12
+                      },
+                      {
+                        "x": 542,
+                        "y": 538
+                      },
+                      {
+                        "x": 7,
+                        "y": 538
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1139,25 +1235,37 @@
         "objectName": "side_walk_tile"
       },
       {
-        "objectName": "house"
+<<<<<<< HEAD
+        "objectName": "house1"
+=======
+        "folderName": "houses (collusive)",
+        "children": [
+          {
+            "objectName": "house5"
+          },
+          {
+            "objectName": "house4"
+          },
+          {
+            "objectName": "house3"
+          },
+          {
+            "objectName": "house2"
+          },
+          {
+            "objectName": "house"
+          }
+        ]
+>>>>>>> 4a7c351955b35a939410567a1d467f44c1afc184
       },
       {
-        "objectName": "house2"
+        "objectName": "Pizzeria"
       },
       {
-        "objectName": "house3"
+        "objectName": "PizzaToken"
       },
       {
-        "objectName": "house4"
-      },
-      {
-        "objectName": "house5"
-      },
-      {
-        "objectName": "Pizzaria"
-      },
-      {
-        "objectName": "NewSprite"
+        "objectName": "Target"
       },
       {
         "objectName": "NewSprite2"
@@ -1218,13 +1326,37 @@
           },
           "parameters": [
             "",
-            "NewSprite",
+            "PizzaToken",
             "1738",
             "2873",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "PlayMusic"
+          },
+          "parameters": [
+            "",
+            "9b91c4c2867ff81e53f0ff696c506e08304bc3cb2ab3a83b25322422eb688601_09 - street punks fighting to save the princess.aac",
+            "yes",
+            "100",
+            ""
+          ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Moped Animation\n"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -1285,7 +1417,7 @@
             "value": "CollisionNP"
           },
           "parameters": [
-            "NewSprite",
+            "PizzaToken",
             "Player_car",
             "",
             "",
@@ -1299,7 +1431,7 @@
             "value": "Delete"
           },
           "parameters": [
-            "NewSprite",
+            "PizzaToken",
             ""
           ]
         },
@@ -1313,8 +1445,87 @@
             "True",
             ""
           ]
+<<<<<<< HEAD
+=======
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Collision Events\n"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "Player_car",
+            "Houses",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player_car",
+            "Houses",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "68cb434ce20496bbc9cef16d07b15cac4653e72fc3a8209fd17e2598526e6687_Hard_Jump_Land_01.wav",
+            "no",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Pizza Interactions"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -1330,66 +1541,16 @@
             "",
             ""
           ]
+>>>>>>> 4a7c351955b35a939410567a1d467f44c1afc184
         },
-        {
-          "type": {
-            "value": "BooleanObjectVariable"
-          },
-          "parameters": [
-            "Player_car",
-            "carrying_pizza",
-            "True",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
         {
           "type": {
             "value": "SetNumberVariable"
           },
           "parameters": [
-            "score",
-            "+",
-            "10"
-          ]
-        },
-        {
-          "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-          },
-          "parameters": [
-            "Score",
-            "Text",
+            "target_house",
             "=",
-            "score"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetBooleanObjectVariable"
-          },
-          "parameters": [
-            "Player_car",
-            "carrying_pizza",
-            "False",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetBooleanVariable"
-          },
-          "parameters": [
-            "pizza_delivered",
-            "True",
-            ""
+            "RandomInRange(1,5)"
           ]
         }
       ]
@@ -1421,7 +1582,7 @@
           },
           "parameters": [
             "",
-            "NewSprite",
+            "PizzaToken",
             "1738",
             "2873",
             ""
@@ -1434,6 +1595,810 @@
           "parameters": [
             "pizza_delivered",
             "False",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "code that handles if the player as collided with the randomized targeted house and then gives points and deletes Target.object\n"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "target_house",
+            "=",
+            "1"
+          ]
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player_car",
+                "house1",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Player_car",
+                "carrying_pizza",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "target_house",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player_car",
+                "Target",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "score",
+                "+",
+                "10"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Score",
+                "Text",
+                "=",
+                "score"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Player_car",
+                "carrying_pizza",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "pizza_delivered",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Target",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "target_house",
+            "=",
+            "2"
+          ]
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player_car",
+                "house2",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "target_house",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Player_car",
+                "carrying_pizza",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player_car",
+                "Target",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "score",
+                "+",
+                "10"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Score",
+                "Text",
+                "=",
+                "score"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Player_car",
+                "carrying_pizza",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "pizza_delivered",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Target",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "target_house",
+            "=",
+            "3"
+          ]
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player_car",
+                "house3",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "target_house",
+                "=",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Player_car",
+                "carrying_pizza",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player_car",
+                "Target",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "score",
+                "+",
+                "10"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Score",
+                "Text",
+                "=",
+                "score"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Player_car",
+                "carrying_pizza",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "pizza_delivered",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Target",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "target_house",
+            "=",
+            "4"
+          ]
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player_car",
+                "house4",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "target_house",
+                "=",
+                "4"
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Player_car",
+                "carrying_pizza",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player_car",
+                "Target",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "score",
+                "+",
+                "10"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Score",
+                "Text",
+                "=",
+                "score"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Player_car",
+                "carrying_pizza",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "pizza_delivered",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Target",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "target_house",
+            "=",
+            "5"
+          ]
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player_car",
+                "house5",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "target_house",
+                "=",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Player_car",
+                "carrying_pizza",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player_car",
+                "Target",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "score",
+                "+",
+                "10"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Score",
+                "Text",
+                "=",
+                "score"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Player_car",
+                "carrying_pizza",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "pizza_delivered",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Target",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "sets visual aid (Target.object) ontop of house that you need to deliver to "
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "target_house",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Target",
+            "house1.X()-50",
+            "house1.Y()-50",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "target_house",
+            "=",
+            "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Target",
+            "house2.X()-50",
+            "house2.Y()-50",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "target_house",
+            "=",
+            "3"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Target",
+            "house3.X()-50",
+            "house3.Y()-50",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "target_house",
+            "=",
+            "4"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Target",
+            "house4.X()-50",
+            "house4.Y()-50",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "target_house",
+            "=",
+            "5"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Target",
+            "house5.X()-50",
+            "house5.Y()-50",
             ""
           ]
         }
