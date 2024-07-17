@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.1892301038062319,
+    "zoomFactor": 0.20220707303602173,
     "windowMask": false
   },
   "objectsGroups": [
@@ -160,11 +160,11 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "Pizzeria",
+      "name": "Pizzaria",
       "persistentUuid": "1279c3f9-5b72-477d-a31d-ce44628f0ad6",
       "width": 0,
-      "x": 2156,
-      "y": 2210,
+      "x": 2091,
+      "y": 2266,
       "zOrder": 104,
       "numberProperties": [],
       "stringProperties": [],
@@ -581,7 +581,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Pizzeria",
+      "name": "Pizzaria",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1139,27 +1139,22 @@
         "objectName": "side_walk_tile"
       },
       {
-        "folderName": "houses (collusive)",
-        "children": [
-          {
-            "objectName": "house5"
-          },
-          {
-            "objectName": "house4"
-          },
-          {
-            "objectName": "house3"
-          },
-          {
-            "objectName": "house2"
-          },
-          {
-            "objectName": "house"
-          }
-        ]
+        "objectName": "house"
       },
       {
-        "objectName": "Pizzeria"
+        "objectName": "house2"
+      },
+      {
+        "objectName": "house3"
+      },
+      {
+        "objectName": "house4"
+      },
+      {
+        "objectName": "house5"
+      },
+      {
+        "objectName": "Pizzaria"
       },
       {
         "objectName": "NewSprite"
@@ -1228,32 +1223,8 @@
             "2873",
             ""
           ]
-        },
-        {
-          "type": {
-            "value": "PlayMusic"
-          },
-          "parameters": [
-            "",
-            "9b91c4c2867ff81e53f0ff696c506e08304bc3cb2ab3a83b25322422eb688601_09 - street punks fighting to save the princess.aac",
-            "yes",
-            "100",
-            ""
-          ]
         }
       ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "Moped Animation\n"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -1344,83 +1315,6 @@
           ]
         }
       ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "Collision Events\n"
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "value": "SeparateFromObjects"
-          },
-          "parameters": [
-            "Player_car",
-            "Houses",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "Player_car",
-            "Houses",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "68cb434ce20496bbc9cef16d07b15cac4653e72fc3a8209fd17e2598526e6687_Hard_Jump_Land_01.wav",
-            "no",
-            "",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "Pizza Interactions"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
