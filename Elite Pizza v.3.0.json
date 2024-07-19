@@ -523,6 +523,15 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/SoundEffects/Footsteps/Snow/Jump/68cb434ce20496bbc9cef16d07b15cac4653e72fc3a8209fd17e2598526e6687_Hard_Jump_Land_01.wav",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite12",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
