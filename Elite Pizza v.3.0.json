@@ -347,7 +347,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite6.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite6.png\"}",
         "name": "NewSprite6",
         "smoothed": false,
         "userAdded": true
@@ -356,7 +356,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite7.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite7.png\"}",
         "name": "NewSprite7",
         "smoothed": false,
         "userAdded": true
@@ -365,7 +365,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite8.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite8.png\"}",
         "name": "NewSprite8",
         "smoothed": false,
         "userAdded": true
@@ -473,10 +473,69 @@
         "alwaysLoaded": false,
         "file": "assets/house12.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/house12.png\"}",
         "name": "house12",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+<<<<<<< HEAD:Elite Pizza.json
+=======
+        "file": "assets/NewTiledSprite5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite5",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+>>>>>>> 4a7c351955b35a939410567a1d467f44c1afc184:Elite Pizza v.3.0.json
+        "file": "assets/NewSprite11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite11",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+<<<<<<< HEAD:Elite Pizza.json
+        "alwaysLoaded": false,
+        "file": "assets/target house.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "target house",
+        "smoothed": false,
+        "userAdded": true
+=======
+        "file": "assets/09 - street punks fighting to save the princess.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "9b91c4c2867ff81e53f0ff696c506e08304bc3cb2ab3a83b25322422eb688601_09 - street punks fighting to save the princess.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Ragnar Random/Fakebit Chiptune Music/9b91c4c2867ff81e53f0ff696c506e08304bc3cb2ab3a83b25322422eb688601_09 - street punks fighting to save the princess.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Hard_Jump_Land_01.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "68cb434ce20496bbc9cef16d07b15cac4653e72fc3a8209fd17e2598526e6687_Hard_Jump_Land_01.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/SoundEffects/Footsteps/Snow/Jump/68cb434ce20496bbc9cef16d07b15cac4653e72fc3a8209fd17e2598526e6687_Hard_Jump_Land_01.wav",
+          "name": "gdevelop-asset-store"
+        }
+>>>>>>> 4a7c351955b35a939410567a1d467f44c1afc184:Elite Pizza v.3.0.json
       }
     ],
     "resourceFolders": []
@@ -533,6 +592,10 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/screenwrap"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/smoothcamera"
