@@ -532,6 +532,69 @@
         "name": "NewSprite12",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "openart-image__lbbzr3c_1721703747523_raw.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "openart-image__lbbzr3c_1721703747523_raw.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "openart-image_xon34C9I_1721703569918_raw.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "openart-image_xon34C9I_1721703569918_raw.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "basic tree transparent.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"basic tree transparent.png\",\"extension\":\".png\"}",
+        "name": "basic tree transparent.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/basic tree transparent.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "basic tree transparent",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "openart-image__lbbzr3c_1721703747523_raw-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "openart-image__lbbzr3c_1721703747523_raw-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/openart-image__lbbzr3c_1721703747523_raw-removebg-preview.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "openart-image__lbbzr3c_1721703747523_raw-removebg-preview",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/openart-image__lbbzr3c_1721703747523_raw-removebg-preview2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "openart-image__lbbzr3c_1721703747523_raw-removebg-preview2",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -588,6 +651,10 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/arraytools"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/screenwrap"

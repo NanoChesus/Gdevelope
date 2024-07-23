@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.1550857455159321,
+    "zoomFactor": 0.1271023371992697,
     "windowMask": false
   },
   "objectsGroups": [
@@ -64,43 +64,6 @@
     },
     {
       "name": "target_house",
-      "type": "array",
-      "children": [
-        {
-          "type": "number",
-          "value": 0
-        },
-        {
-          "folded": true,
-          "type": "number",
-          "value": 0
-        },
-        {
-          "folded": true,
-          "type": "number",
-          "value": 0
-        },
-        {
-          "folded": true,
-          "type": "number",
-          "value": 0
-        },
-        {
-          "folded": true,
-          "type": "number",
-          "value": 0
-        }
-      ]
-    },
-    {
-      "folded": true,
-      "name": "previousNumber",
-      "type": "number",
-      "value": 0
-    },
-    {
-      "folded": true,
-      "name": "newNumber",
       "type": "number",
       "value": 0
     }
@@ -130,46 +93,12 @@
       "height": 5840,
       "keepRatio": true,
       "layer": "",
-      "name": "NewTiledSprite",
+      "name": "road",
       "persistentUuid": "21632e98-b580-4b18-9bd0-a6a13c9ac2d4",
       "width": 303,
       "x": 1596,
       "y": -2351,
       "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 5832,
-      "keepRatio": true,
-      "layer": "",
-      "name": "side_walk_tile",
-      "persistentUuid": "e152bff6-dc09-478d-a4e3-73e97dd673cc",
-      "width": 124,
-      "x": 1898,
-      "y": -2348,
-      "zOrder": 10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 5832,
-      "keepRatio": true,
-      "layer": "",
-      "name": "side_walk_tile",
-      "persistentUuid": "b0980584-f080-4252-938d-6f671e75c481",
-      "width": 124,
-      "x": 1472,
-      "y": -2349,
-      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -282,6 +211,137 @@
       "x": 2361,
       "y": 1298,
       "zOrder": 109,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 17,
+      "height": 5840,
+      "keepRatio": true,
+      "layer": "",
+      "name": "road",
+      "persistentUuid": "1957b5d5-7379-4eaa-979a-cfa1aaf27e26",
+      "width": 303,
+      "x": -8692,
+      "y": -2360,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 17,
+      "height": 5840,
+      "keepRatio": true,
+      "layer": "",
+      "name": "road",
+      "persistentUuid": "22c27c8e-9837-4cbc-ada3-3c456dcd8e46",
+      "width": 303,
+      "x": -1604,
+      "y": -5543,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 17,
+      "height": 5840,
+      "keepRatio": true,
+      "layer": "",
+      "name": "road",
+      "persistentUuid": "d08d2f9e-64b4-4aad-84f1-264999ba5b3b",
+      "width": 303,
+      "x": -2294,
+      "y": 1285,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite",
+      "persistentUuid": "2b787022-b1e7-4570-a186-cdb934688b40",
+      "width": 0,
+      "x": 346,
+      "y": -785,
+      "zOrder": 110,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite",
+      "persistentUuid": "458f778e-8c26-49cd-bcd9-69e62d6920e0",
+      "width": 0,
+      "x": 2353,
+      "y": -2199,
+      "zOrder": 111,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite",
+      "persistentUuid": "32dbcaaf-9280-4887-ad5c-f2471efd0690",
+      "width": 0,
+      "x": 3740,
+      "y": -2468,
+      "zOrder": 112,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite3",
+      "persistentUuid": "fbaac5f2-548a-4bb0-9d00-75fb983bccd9",
+      "width": 0,
+      "x": 437,
+      "y": -2506,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite3",
+      "persistentUuid": "c3d5c154-b5bd-4f46-9d8c-4c68e4cba8f6",
+      "width": 0,
+      "x": -1654,
+      "y": 1024,
+      "zOrder": 114,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -534,7 +594,7 @@
     {
       "assetStoreId": "",
       "height": 100,
-      "name": "NewTiledSprite",
+      "name": "road",
       "texture": "e4143984855b3f2809a2a27ebfdf1ba854f1bf5248b74cc117ed4002cbe0e5d9_tiled_Gray Background.png8",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 100,
@@ -1221,6 +1281,140 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "basic tree transparent",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "basic tree transparent",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 323,
+                        "y": 0
+                      },
+                      {
+                        "x": 323,
+                        "y": 600
+                      },
+                      {
+                        "x": 0,
+                        "y": 600
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite3",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "openart-image__lbbzr3c_1721703747523_raw-removebg-preview",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "openart-image__lbbzr3c_1721703747523_raw-removebg-preview2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 556,
+                        "y": 0
+                      },
+                      {
+                        "x": 556,
+                        "y": 600
+                      },
+                      {
+                        "x": 0,
+                        "y": 600
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 100,
+      "name": "road_corner",
+      "persistentUuid": "57ed79ad-4e1f-43cf-b982-5ff381a3492d",
+      "texture": "e4143984855b3f2809a2a27ebfdf1ba854f1bf5248b74cc117ed4002cbe0e5d9_tiled_Gray Background.png8",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 100,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -1230,7 +1424,10 @@
         "objectName": "Player_car"
       },
       {
-        "objectName": "NewTiledSprite"
+        "objectName": "road"
+      },
+      {
+        "objectName": "road_corner"
       },
       {
         "objectName": "side_walk_tile"
@@ -1269,6 +1466,12 @@
       },
       {
         "objectName": "Target"
+      },
+      {
+        "objectName": "NewSprite"
+      },
+      {
+        "objectName": "NewSprite3"
       }
     ]
   },
@@ -1462,7 +1665,7 @@
           "parameters": [
             "target_house",
             "=",
-            "RandomInRange(1, 5)"
+            "RandomInRange(1, 2)"
           ]
         }
       ]
@@ -1677,6 +1880,16 @@
             },
             {
               "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "target_house",
+                "+",
+                "500"
+              ]
+            },
+            {
+              "type": {
                 "value": "Delete"
               },
               "parameters": [
@@ -1689,7 +1902,6 @@
       ]
     },
     {
-      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -1777,6 +1989,16 @@
             },
             {
               "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "target_house",
+                "+",
+                "500"
+              ]
+            },
+            {
+              "type": {
                 "value": "Delete"
               },
               "parameters": [
@@ -1789,7 +2011,6 @@
       ]
     },
     {
-      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -1877,6 +2098,16 @@
             },
             {
               "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "target_house",
+                "+",
+                "500"
+              ]
+            },
+            {
+              "type": {
                 "value": "Delete"
               },
               "parameters": [
@@ -1889,7 +2120,6 @@
       ]
     },
     {
-      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -1977,6 +2207,16 @@
             },
             {
               "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "target_house",
+                "+",
+                "500"
+              ]
+            },
+            {
+              "type": {
                 "value": "Delete"
               },
               "parameters": [
@@ -1989,7 +2229,6 @@
       ]
     },
     {
-      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -2077,6 +2316,16 @@
             },
             {
               "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "target_house",
+                "+",
+                "500"
+              ]
+            },
+            {
+              "type": {
                 "value": "Delete"
               },
               "parameters": [
@@ -2112,12 +2361,6 @@
             "=",
             "1"
           ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
         }
       ],
       "actions": [
@@ -2132,47 +2375,6 @@
             "house.Y()-25",
             ""
           ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "previousNumber",
-            "=",
-            "1"
-          ]
-        }
-      ],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "previousNumber",
-                "=",
-                "1"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "Target",
-                "house.X()-25",
-                "house.Y()-25",
-                ""
-              ]
-            }
-          ]
         }
       ]
     },
@@ -2188,12 +2390,6 @@
             "=",
             "2"
           ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
         }
       ],
       "actions": [
@@ -2208,47 +2404,6 @@
             "house2.Y()-25",
             ""
           ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "previousNumber",
-            "=",
-            "2"
-          ]
-        }
-      ],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "previousNumber",
-                "=",
-                "2"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "Target",
-                "house2.X()-25",
-                "house2.Y()-25",
-                ""
-              ]
-            }
-          ]
         }
       ]
     },
@@ -2264,12 +2419,6 @@
             "=",
             "3"
           ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
         }
       ],
       "actions": [
@@ -2284,47 +2433,6 @@
             "house3.Y()-25",
             ""
           ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "previousNumber",
-            "=",
-            "3"
-          ]
-        }
-      ],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "previousNumber",
-                "=",
-                "3"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "Target",
-                "house3.X()-25",
-                "house3.Y()-25",
-                ""
-              ]
-            }
-          ]
         }
       ]
     },
@@ -2340,12 +2448,6 @@
             "=",
             "4"
           ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
         }
       ],
       "actions": [
@@ -2360,47 +2462,6 @@
             "house4.Y()-25",
             ""
           ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "previousNumber",
-            "=",
-            "4"
-          ]
-        }
-      ],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "previousNumber",
-                "=",
-                "4"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "Target",
-                "house4.X()-25",
-                "house4.Y()-25",
-                ""
-              ]
-            }
-          ]
         }
       ]
     },
@@ -2416,12 +2477,6 @@
             "=",
             "5"
           ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
         }
       ],
       "actions": [
@@ -2435,47 +2490,6 @@
             "house5.X()-25",
             "house5.Y()-25",
             ""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "previousNumber",
-            "=",
-            "5"
-          ]
-        }
-      ],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "previousNumber",
-                "=",
-                "5"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "Target",
-                "house5.X()-25",
-                "house5.Y()-25",
-                ""
-              ]
-            }
           ]
         }
       ]
