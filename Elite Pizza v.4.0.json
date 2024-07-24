@@ -1086,8 +1086,17 @@
         "alwaysLoaded": false,
         "file": "assets/cars3.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/cars3.png\"}",
         "name": "cars3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cars4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "cars4",
         "smoothed": false,
         "userAdded": true
       }
